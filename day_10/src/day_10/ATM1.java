@@ -1,0 +1,23 @@
+package day_10;
+
+public class ATM1 {
+	double bal;
+	User u;
+	void checkbalance(double bal, User u) {
+		System.out.println("mumbai branch");
+		System.out.println("user name:"+ u.name);
+		System.out.println("Current Balance:"+bal);
+	}
+	public static void main(String[] args) {
+		ATM1 a= new ATM1();
+		User u= new User("Chinmay",13130);
+		a.bal=50088;
+		if(u.pass==13130) {
+			a.checkbalance(a.bal, u);
+		}
+		else {
+			System.out.println("please check passward");
+		}
+	}
+
+}
