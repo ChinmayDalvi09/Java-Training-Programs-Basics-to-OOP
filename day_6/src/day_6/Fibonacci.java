@@ -1,4 +1,4 @@
-package day6;
+package day_6;
 
 public class Fibonacci {
 	static void Fib(int N)
